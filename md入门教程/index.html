@@ -1,0 +1,127 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.8.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Recoding my grow of technology."><title>md入门教程 | 苏木力格</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script><link rel="icon" mask sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = 'https://hm.baidu.com/hm.js?' + 'f5ade530ba5b4cc820dc6c90f06cac21';
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();</script></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">md入门教程</h1><a id="logo" href="/.">苏木力格</a><p class="description"></p></div><div id="nav-menu"><a href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">md入门教程</h1><div class="post-content"><h1 id="关于标题"><a href="#关于标题" class="headerlink" title="关于标题"></a>关于标题</h1><p>规范的readme文件开头都写上一个标题，称之为大标题。</p>
+<h1 id="大标题"><a href="#大标题" class="headerlink" title="大标题"></a>大标题</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">大标题</span><br><span class="line">=====</span><br></pre></td></tr></table></figure>
+<p>“=”个数大于o并且渐增</p>
+<h2 id="中标题"><a href="#中标题" class="headerlink" title="中标题"></a>中标题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">中标题</span><br><span class="line">-------</span><br></pre></td></tr></table></figure>
+<p>在文本下面加上 下划线 - ，那么上方的文本就变成了中标题，同样的 下划线个数无限制。</p>
+<p>除此之外，你也会发现大，中标题下面都有一条横线，没错这就是 = 和 - 的显示结果。</p>
+<p><strong>补空行：是很常用的用法，当你不想上下两个不同的布局方式交错到一起的时候，就要在两种布局之间补一个空行。</strong></p>
+<p>如果你只输入了短横线（减号）-，其上方无文字，那么要显示直线，必须要写三个减号以上。不过与等于号的显示效果不同，它显示出来时虚线而不是实线。同减号作用相同的还有星号*和下划线_，同样的这两者符号也要写三个以上才能显示一条虚横线。</p>
+<p>除此以外，关于标题还有等级表示法，分为六个等级，显示的文本大小依次减小。不同等级之间是以井号  #  的个数来标识的。一级标题有一个 #，二级标题有两个# ，以此类推。</p>
+<hr>
+<p>注意井号#和标题名称要并排写作一行，显示效果如图：</p>
+<p>#一级标题  </p>
+<p>##二级标题  </p>
+<p>###三级标题  </p>
+<p>####四级标题  </p>
+<p>#####五级标题  </p>
+<p>######六级标题 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#一级标题  </span><br><span class="line">##二级标题  </span><br><span class="line">###三级标题  </span><br><span class="line">####四级标题  </span><br><span class="line">#####五级标题  </span><br><span class="line">######六级标题</span><br></pre></td></tr></table></figure>
+<p>实际上，前文所述的大标题和中标题是分别和一级标题和二级标题对应的。即大标题大小和一级标题相同，中标题大小和二级标题相同。</p>
+<h1 id="显示文本"><a href="#显示文本" class="headerlink" title="显示文本"></a>显示文本</h1><h2 id="普通文本"><a href="#普通文本" class="headerlink" title="普通文本"></a>普通文本</h2><p>直接输入的文字就是普通文本。需要注意的是要换行的时候不能直接通过回车来换行，需要使用‘<br>’(或者‘<br>’)。也就是html里面的标签。事实上，markdown支持一些html标签，你可以试试。当然如果你完全使用html来写的话，就丧失意义了，毕竟markdown并非专门做前端的，然而仅实现一般效果的话，它会比html写起来要简洁得多得多啦。</p>
+<p>效果如图：<br>这是一段普通的文本，<br>直接回车不能换行，<br><br>要使用\<br></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">这是一段普通的文本，  </span><br><span class="line">直接回车不能换行，&lt;br&gt;  </span><br><span class="line">要使用\&lt;br&gt;</span><br></pre></td></tr></table></figure>
+<p>注意第三行的<br>前加了反斜杠 \ 。目的就是像其他语言那样实现转义，也就是 &lt;  的转义。</p>
+<p>此外，要显示一个超链接的话，就直接输入这个链接的URL就好了。显示出来会自动变成可链接的形式的。</p>
+<h2 id="显示空格的小Tip"><a href="#显示空格的小Tip" class="headerlink" title="显示空格的小Tip"></a>显示空格的小Tip</h2><p>默认的文本行首空格都会被忽略的，但是如果你想用空格来排一下版的话怎么办呢，有个小技巧，那就是把你的输入法由半角改成全角就OK啦。</p>
+<h2 id="单行文本："><a href="#单行文本：" class="headerlink" title="单行文本："></a>单行文本：</h2><p>使用两个Tab符实现单行文本。</p>
+<p>注意前面有两个Tab。在GitHub上单行文本显示效果如图：</p>
+<pre><code>大家好，我是新来的，请多多关照。
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> </span><br></pre></td></tr></table></figure>
+<h2 id="多行文本"><a href="#多行文本" class="headerlink" title="多行文本"></a>多行文本</h2><p>多行文本和单行文本异曲同工，只要在每行行首加两个Tab</p>
+<p>效果：</p>
+<pre><code>好的1
+好的2
+好的3
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">好的</span><br><span class="line">好的</span><br><span class="line">好的</span><br></pre></td></tr></table></figure>
+<h2 id="部分文字的高亮"><a href="#部分文字的高亮" class="headerlink" title="部分文字的高亮"></a>部分文字的高亮</h2><p>如果你想使一段话中部分文字高亮显示，来起到突出强调的作用，那么可以把它用 <code></code> 包围起来。注意这不是单引号，而是Tab上方，数字1左边的按键（注意使用英文输入法）。</p>
+<p>效果：</p>
+<p>  我是<code>pig</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我是`pig`</span><br></pre></td></tr></table></figure>
+<h2 id="文件超链接"><a href="#文件超链接" class="headerlink" title="文件超链接"></a>文件超链接</h2><p>给一段文字加入超链接的格式是这样的 <a href="https://home.cnblogs.com/u/willem-xin/" target="_blank" rel="noopener"> 要显示的文字 </a>。比如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[我的博客](https://home.cnblogs.com/u/willem-xin/)</span><br></pre></td></tr></table></figure>
+<p>你还可以给他加上一个鼠标悬停显示的文本。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[我的博客](http://blog.csdn.net/guodongxiaren &quot;悬停显示&quot;)</span><br></pre></td></tr></table></figure>
+<p>即在URL之后 用双引号括起来一个字符串。同样要注意这里是英文双引号。</p>
+<h2 id="插入符号"><a href="#插入符号" class="headerlink" title="插入符号"></a>插入符号</h2><p>###圆点符<br>效果：</p>
+<ul>
+<li>这是一个圆点</li>
+<li>这是一个圆点</li>
+</ul>
+<p>上面这段的圆点是CSDN博客编辑器里面的符号列表。写文章在列出条目时经常用到。在GitHub的markdown语法里也支持使用圆点符。编辑的时候使用的是星号 *</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* 昵称：果冻虾仁  </span><br><span class="line">* 别名：隔壁老王  </span><br><span class="line">* 英文名：Jelly</span><br></pre></td></tr></table></figure>
+<p>要注意的是星号* 后面要有一个空格。否则显示为普通星号。上文的显示效果如图：</p>
+<p>此外还有二级圆点和三级圆点。就是多加一个Tab。</p>
+<p>效果：</p>
+<ul>
+<li>编程语言<ul>
+<li>脚本语言<ul>
+<li>Python <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* 编程语言</span><br><span class="line">  * 脚本语言</span><br><span class="line">    * Python</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>如果你觉得三级的结构还不够表达清楚的话，我们可以试着换一种形式，请看字符包围</p>
+<h2 id="缩进"><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h2><p>效果：</p>
+<blockquote>
+<p>数据结构</p>
+<blockquote>
+<p>树</p>
+<blockquote>
+<p>二叉树</p>
+<blockquote>
+<p>平衡二叉树</p>
+<blockquote>
+<p>满二叉树<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;数据结构  </span><br><span class="line">&gt;&gt;树  </span><br><span class="line">&gt;&gt;&gt;二叉树  </span><br><span class="line">&gt;&gt;&gt;&gt;平衡二叉树  </span><br><span class="line">&gt;&gt;&gt;&gt;&gt;满二叉树</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>当然比这个更一般的用法是这样。常常能在书籍里面看到的效果，比如引用别人的文章。直接看效果。</p>
+<h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><h3 id="来源于网络的图片"><a href="#来源于网络的图片" class="headerlink" title="来源于网络的图片"></a>来源于网络的图片</h3><p>使用的最简单，最基本的语法是：</p>
+<p><img src="http://www.baidu.com/img/bdlogo.gif" alt><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![baidu]&#123;http://www.baidu.com/img/bdlogo.gif&#125;</span><br></pre></td></tr></table></figure></p>
+<p>这个方括号里的baidu并不会对图像显示造成任何改动，如果你想达到鼠标悬停显示提示信息，那么可以仿照前面介绍的文本中的方法，就是这样：</p>
+<p>效果：<br><img src="http://www.baidu.com/img/bdlogo.gif" alt="baidu" title="百度logo">  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![baidu](http://www.baidu.com/img/bdlogo.gif &quot;百度logo&quot;)</span><br></pre></td></tr></table></figure>
+<h2 id="GitHub仓库里的图片"><a href="#GitHub仓库里的图片" class="headerlink" title="GitHub仓库里的图片"></a>GitHub仓库里的图片</h2><p>有时候我们想显示一个GitHub仓库(或者说项目)里的图片而不是一张其他来源网络图片，因为其他来源的URL很可能会失效。那么如何显示一个GitHub项目里的图片呢？</p>
+<p>其实与上面的格式基本一致的，所不同的就是括号里的URL该怎么写。</p>
+<pre><code>https://github.com/ 你的用户名 / 你的项目名 / raw / 分支名 / 存放图片的文件夹 / 该文件夹下的图片
+</code></pre><p>这样一目了然了吧。比如：</p>
+<p><img src="https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif" alt>  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)</span><br></pre></td></tr></table></figure>
+<p>我在GitHub上的用户名guodongxiaren；有一个项目ImageCache；raw表示原数据的意思吧，不用管它；主分支master；项目里有一个文件夹Logo；Logo文件夹下有一张图片foryou.gif</p>
+<h2 id="给图片加上超链接"><a href="#给图片加上超链接" class="headerlink" title="给图片加上超链接"></a>给图片加上超链接</h2><p>如果你想使图片带有超链接的功能，即点击一个图片进入一个指定的网页。那么可以这样写：</p>
+<p><a href="http://baidu.com" target="_blank" rel="noopener">![baidu]</a><br>[baidu]:<a href="http://www.baidu.com/img/bdlogo.gif" target="_blank" rel="noopener">http://www.baidu.com/img/bdlogo.gif</a> “百度Logo”  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[![baidu]](http://baidu.com)  </span><br><span class="line">[baidu]:http://www.baidu.com/img/bdlogo.gif &quot;百度Logo&quot;</span><br></pre></td></tr></table></figure>
+<p>这两句和前面的写法差异较大，但是也极易模仿着写出，就不过多介绍了。只需注意上下文中的 baidu 是你自己起的标识的名称，可以随意，但是一定要保证上下两行的 标识 是一致的。<br>这样就能实现 点击图片进入网页的功能了。</p>
+<h2 id="插入代码片段"><a href="#插入代码片段" class="headerlink" title="插入代码片段"></a>插入代码片段</h2><p>我们需要在代码的上一行和下一行用<code>`</code> 标记。<figure class="highlight plain"><figcaption><span>``` 之后加上你的编程语言即可（忽略大小写）。c++语言可以写成c++也可以是php。看代码：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```Java</span><br><span class="line">//java</span><br><span class="line">public static void main(String agrs[])&#123;</span><br><span class="line">  System.out.println(&quot;Hello World&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//c</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc,<span class="keyword">char</span> *argv[])</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"Hello World"</span> <span class="comment">#Bash</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//JavaScript</span></span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">"userId"</span>).innerHTML = <span class="string">"Welcome to JavaScript"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//cpp</span></span><br><span class="line"><span class="built_in">string</span> &amp;<span class="keyword">operator</span>+(<span class="keyword">const</span> <span class="built_in">string</span>&amp; A,<span class="keyword">const</span> <span class="built_in">string</span>&amp; B)</span><br></pre></td></tr></table></figure>
+</div></div><div id="vcomment"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
+var verify = 'false' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'ivpEhNzW7MXaOpXrMfU90jjq-gzGzoHsz',
+  appKey:'65olvYK78WGdFMmAWd49Bo5A',
+  placeholder:'Just so so',
+  avatar:'mm',
+  guest_info:guest_info,
+  pageSize:'10'
+})</script></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank"><input type="search" name="word" maxlength="20" placeholder="Search"><input type="hidden" name="si" value="https://github.com/Yogagreazy/yogagreazy.github.io"><input name="tn" type="hidden" value="bds"><input name="cl" type="hidden" value="3"><input name="ct" type="hidden" value="2097152"><input name="s" type="hidden" value="on"></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/03/30/github-hexo-搭建个人博客/">github+hexo-搭建个人博客</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="https://github.com/Yogagreazy" title="Github" target="_blank">Github</a><ul></ul><a href="https://www.weibo.com/u/3003017644" title="Weibo" target="_blank">Weibo</a><ul></ul><a href="https://home.cnblogs.com/u/willem-xin/" title="博客园" target="_blank">博客园</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2019 <a href="/." rel="nofollow">苏木力格.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/3.5.2/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/3.5.2/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
